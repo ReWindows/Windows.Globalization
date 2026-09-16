@@ -1,0 +1,20 @@
+{
+  "schema": 1,
+  "target": "Windows.Globalization.dll",
+  "latest": "798844927-89FB479B9759B9447A8C5EB7A4ADDA4D-1",
+  "builds": [
+    {
+      "key": "798844927-89FB479B9759B9447A8C5EB7A4ADDA4D-1",
+      "timestamp": "798844927",
+      "pdb_guid": "89FB479B9759B9447A8C5EB7A4ADDA4D",
+      "pdb_age": 1,
+      "machine": "0x8664",
+      "ir": "builds/798844927-89FB479B9759B9447A8C5EB7A4ADDA4D-1/ir.json.gz",
+      "previous": null,
+      "diff_json": null,
+      "diff_markdown": null,
+      "summary": null
+    }
+  ],
+  "compression": "gzip"
+}

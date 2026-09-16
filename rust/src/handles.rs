@@ -1,0 +1,2148 @@
+//! Opaque handles for recovered C++ classes.
+#![allow(non_camel_case_types)]
+
+#[repr(C)]
+pub struct AgileGitPtr { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_IUnknown__struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_struct_HSTRING______struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme________struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct AutoStubBias_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING_________struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct BiasHelper_struct_IUnknown__struct_Windows__Internal__INilDelegate__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct BrokeredActivationBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CMarshaledInterface { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CSearchTextSourceWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CSearchWordBreakerWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct CSearchWordSinkWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ConstrainedImpersonateLoggedOnUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Microsoft__WRL__Implements_struct_Windows__Globalization__ILanguageFactory__struct_Windows__Globalization__ILanguageStatics__struct_Windows__Globalization__ILanguageStatics2__struct_Windows__Globalization__ILanguageStatics3_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ISelectableWordsSegmenterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextConversionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextPredictionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextReverseConversionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IUnicodeCharactersStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IWordsSegmenterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__Collation__ICharacterGroupingsFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterFactory___struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterStatics__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics___struct_Windows__Globalization__IApplicationLanguagesStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarFactory___struct_Windows__Globalization__ICalendarFactory2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarIdentifiersStatics___struct_Windows__Globalization__ICalendarIdentifiersStatics2__struct_Windows__Globalization__ICalendarIdentifiersStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IClockIdentifiersStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyAmountFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyIdentifiersStatics___struct_Windows__Globalization__ICurrencyIdentifiersStatics2__struct_Windows__Globalization__ICurrencyIdentifiersStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IGeographicRegionFactory___struct_Windows__Globalization__IGeographicRegionStatics__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__INumeralSystemIdentifiersStatics___struct_Windows__Globalization__INumeralSystemIdentifiersStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IDecimalFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslatorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPercentFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPermilleFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ActivationFactory_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics___struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Microsoft__WRL__Implements_struct_Windows__Globalization__ILanguageFactory__struct_Windows__Globalization__ILanguageStatics__struct_Windows__Globalization__ILanguageStatics2__struct_Windows__Globalization__ILanguageStatics3___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Globalization__IApplicationLanguagesStatics__struct_Windows__Globalization__IApplicationLanguagesStatics2__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Globalization__ICalendarIdentifiersStatics__struct_Windows__Globalization__ICalendarIdentifiersStatics2__struct_Windows__Globalization__ICalendarIdentifiersStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__Globalization__ICurrencyIdentifiersStatics__struct_Windows__Globalization__ICurrencyIdentifiersStatics2__struct_Windows__Globalization__ICurrencyIdentifiersStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileActivationFactory_struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_AgileRef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ClassFactory_class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_CMarshaledInterface__CMarshalStream { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_CSearchWordSinkWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__AlternateWordForm { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__IterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__IterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__NeutralWordBreakerUnicodeDefault { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__ReverseIterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__ReverseIterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__SelectableWordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__SelectableWordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__SelectableWordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__TextConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__TextPredictionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__TextReverseConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__WordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__WordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__WordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Data__Text__AlternateWordForm____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Data__Text__AlternateWordForm_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Data__Text__AlternateWordForm_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Data__Text__SelectableWordSegment____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Data__Text__SelectableWordSegment_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Data__Text__SelectableWordSegment_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Data__Text__TextPhoneme____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Data__Text__TextPhoneme_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Data__Text__TextPhoneme_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Data__Text__WordSegment____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Data__Text__WordSegment_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Data__Text__WordSegment_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_class_Windows__Globalization__Collation__CharacterGrouping____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Globalization__Collation__CharacterGrouping_____0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Foundation__Collections__Internal__AgileVector_struct_HSTRING_____struct_Windows__Foundation__Collections__Internal__DefaultEqualityPredicate_struct_HSTRING______struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_struct_HSTRING______0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__Calendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__Collation__CharacterGroupings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__CurrencyAmountServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__DateTimeDecimalFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__DateTimeFormatting__DateTimeFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__GeographicRegion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__Language { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__CurrencyFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__DecimalFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__HebrewNumeralFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__IncrementNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__NumeralSystemDecimalFormatterInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__NumeralSystemTranslator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__PercentFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__PermilleFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_class_Windows__Globalization__NumberFormatting__SignificantDigitsNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAgileReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IAsyncInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IGlobalOptions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IInspectable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMarshal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMtfSuggestionCandidate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMtfSuggestionCandidatePrimitive { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMtfSuggestionClient { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMtfSuggestionList { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IMtfSuggestionListElement { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IRestrictedErrorInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IRpcOptions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IStream { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IUnknown { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IWordBreaker { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_IXmlReader { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Nullable_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Nullable_int64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Nullable_uint64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__Detail__IVectorStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterable_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IIterator_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__AlternateWordForm { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__Collections__IVector_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__IApplicationLanguagesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__ICalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__ICloneable { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__IUnderlyingCalendarObject { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__NumberFormatting__INumberFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__NumberFormatting__INumberFormatterOptions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Globalization__NumberFormatting__INumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__IUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__Internal__ISignInStateManager { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ComPtr_struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ComPtrRef_class_Microsoft_WRL_AgileRef__operator_class_Microsoft_WRL { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Microsoft__WRL__Implements_struct_Windows__Globalization__ILanguageFactory__struct_Windows__Globalization__ILanguageStatics__struct_Windows__Globalization__ILanguageStatics2__struct_Windows__Globalization__ILanguageStatics3_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ISelectableWordsSegmenterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextConversionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextPredictionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextReverseConversionGeneratorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IUnicodeCharactersStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IWordsSegmenterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__Collation__ICharacterGroupingsFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterFactory___struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics___struct_Windows__Globalization__IApplicationLanguagesStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarFactory___struct_Windows__Globalization__ICalendarFactory2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarIdentifiersStatics___struct_Windows__Globalization__ICalendarIdentifiersStatics2__struct_Windows__Globalization__ICalendarIdentifiersStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IClockIdentifiersStatics___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyAmountFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyIdentifiersStatics___struct_Windows__Globalization__ICurrencyIdentifiersStatics2__struct_Windows__Globalization__ICurrencyIdentifiersStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IGeographicRegionFactory___struct_Windows__Globalization__IGeographicRegionStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__INumeralSystemIdentifiersStatics___struct_Windows__Globalization__INumeralSystemIdentifiersStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IDecimalFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslatorFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPercentFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPermilleFormatterFactory___class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics___struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ISelectableWordsSegmenterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextConversionGeneratorFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextPredictionGeneratorFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextReverseConversionGeneratorFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IUnicodeCharactersStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IWordsSegmenterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__Collation__ICharacterGroupingsFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterFactory_____struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics_____struct_Windows__Globalization__IApplicationLanguagesStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarFactory_____struct_Windows__Globalization__ICalendarFactory2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarIdentifiersStatics_____struct_Windows__Globalization__ICalendarIdentifiersStatics2__struct_Windows__Globalization__ICalendarIdentifiersStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IClockIdentifiersStatics_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyAmountFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IGeographicRegionFactory_____struct_Windows__Globalization__IGeographicRegionStatics__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__INumeralSystemIdentifiersStatics_____struct_Windows__Globalization__INumeralSystemIdentifiersStatics2__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IDecimalFormatterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslatorFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPercentFormatterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Microsoft__WRL__Details__ImplementsMarker_struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPermilleFormatterFactory_____class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_13___1__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer_____struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberFormatter___struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberFormatter___struct_IWeakReferenceSource__struct_Windows__Globalization__ICloneable__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberFormatter___struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberRounder___struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__IAlternateWordForm__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__ISelectableWordSegment__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__ISelectableWordsSegmenter__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__ITextConversionGenerator__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__ITextPhoneme__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__IWordSegment__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Data__Text__IWordsSegmenter__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__IReference_double___struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__IReference_int64_t___struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Foundation__IReference_uint64_t___struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Globalization__Collation__ICharacterGrouping__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Globalization__ICurrencyAmount__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Globalization__IGeographicRegion__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Globalization__NumberFormatting__INumberFormatter__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslator__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Windows__System__UserProfile__IGlobalizationPreferencesForUser__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Data__Text__ITextPredictionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Data__Text__ITextReverseConversionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__ICloneable__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__ILanguage2__struct_Windows__Globalization__ILanguage3__struct_Windows__Globalization__ILanguageExtensionSubtags__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__ISelectableWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__ITextConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__ITextPredictionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__ITextReverseConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__IUnicodeCharactersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Data__Text__IWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__Collation__ICharacterGroupingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__IApplicationLanguagesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__ICalendarFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__ICalendarIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__IClockIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__ICurrencyAmountFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__ICurrencyIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__IGeographicRegionFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__INumeralSystemIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__NumberFormatting__ICurrencyFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__NumberFormatting__IDecimalFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslatorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__NumberFormatting__IPercentFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__Globalization__NumberFormatting__IPermilleFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Microsoft__WRL__Details__ImplementsMarker_class_Microsoft__WRL__FtmBase___struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Data__Text__ITextPredictionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Data__Text__ITextReverseConversionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterator_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IIterator_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__ICloneable__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__ILanguage3__struct_Windows__Globalization__ILanguageExtensionSubtags__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__ILanguageExtensionSubtags__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__ILanguageFactory__struct_Windows__Globalization__ILanguageStatics__struct_Windows__Globalization__ILanguageStatics2__struct_Windows__Globalization__ILanguageStatics3 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__ITimeZoneOnCalendar__struct_Windows__Globalization__IUnderlyingCalendarObject__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__IUnderlyingCalendarObject__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__INumberFormatterOptions__struct_Windows__Globalization__NumberFormatting__INumberFormatter__struct_Windows__Globalization__NumberFormatting__INumberFormatter2__struct_Windows__Globalization__NumberFormatting__INumberParser__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsOption__struct_Windows__Globalization__NumberFormatting__INumberRounderOption__struct_Windows__Globalization__NumberFormatting__ISignedZeroOption { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__INumberParser__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsOption__struct_Windows__Globalization__NumberFormatting__INumberRounderOption__struct_Windows__Globalization__NumberFormatting__ISignedZeroOption { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___1__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_struct_HSTRING______struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_IWeakReferenceSource__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING_________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_struct_HSTRING______struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Foundation__IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING_________struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_3___1__struct_Windows__Internal__IAsyncOperationLocal__struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncDeferral___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IComPoolTask___struct_Microsoft__WRL__CloakedIid_struct_Windows__Internal__IAsyncFireCompletion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_CSearchWordSinkWrapper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__Details__WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleClassFactory_class_Windows__Data__Text__NeutralWordBreakerUnicodeDefault__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Globalization__NumberFormatting__IncrementNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Microsoft__WRL__SimpleSealedActivationFactory_class_Windows__Globalization__NumberFormatting__SignificantDigitsNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__AlternateWordForm { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__IterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__IterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__NeutralWordBreakerUnicodeDefault { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__ReverseIterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__ReverseIterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__SelectableWordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__SelectableWordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__SelectableWordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__SelectableWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextPredictionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextPredictionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextReverseConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__TextReverseConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__UnicodeCharacters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__ApplicationLanguages { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__ApplicationLanguagesBrokered { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__Calendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__CalendarFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__CalendarIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__ClockIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__Collation__CharacterGroupings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__Collation__CharacterGroupingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__CurrencyAmountFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__CurrencyAmountServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__CurrencyIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__DateTimeFormatting__DateTimeFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__GeographicRegion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__GeographicRegionFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__Language { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__LanguageFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__CurrencyFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__CurrencyFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__DecimalFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__HebrewNumeralFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__IncrementNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__NumeralSystemTranslator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__NumeralSystemTranslatorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__PercentFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__PermilleFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__PermilleFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumberFormatting__SignificantDigitsNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Globalization__NumeralSystemIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__Internal__ComTaskPool__CTaskWrapper_class__lambda_c2fd7731c5ae0d37e65ea73be67c0f1b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__System__UserProfile__GlobalizationPreferences { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__System__UserProfile__GlobalizationPreferencesBrokered { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_class_Windows__System__UserProfile__GlobalizationPreferencesForUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Nullable_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Nullable_int64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Nullable_uint64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_MakeAllocator_struct_Windows__Globalization__DateTimeFormatting__DateTimeFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_ModuleBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_13 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassBaseT_2 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0__struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics___struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Globalization__NumberFormatting__NumberFormatter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Globalization__NumberFormatting__NumberFormatter__struct_Windows__Globalization__ICloneable__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Globalization__NumberFormatting__NumberFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__IAlternateWordForm__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ISelectableWordSegment__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ISelectableWordsSegmenter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ITextConversionGenerator__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ITextPhoneme__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ITextPredictionGenerator__struct_Windows__Data__Text__ITextPredictionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__ITextReverseConversionGenerator__struct_Windows__Data__Text__ITextReverseConversionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__IWordSegment__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Data__Text__IWordsSegmenter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__IReference_double___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__IReference_int64_t___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Foundation__IReference_uint64_t___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__Collation__ICharacterGrouping__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__Collation__ICharacterGroupings__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__ICalendar__struct_Windows__Globalization__ITimeZoneOnCalendar__struct_Windows__Globalization__IUnderlyingCalendarObject__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__ICurrencyAmount__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__IGeographicRegion__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__ILanguage__struct_Windows__Globalization__ILanguage2__struct_Windows__Globalization__ILanguage3__struct_Windows__Globalization__ILanguageExtensionSubtags__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__NumberFormatting__INumberFormatter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslator__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_1___1__1__0__struct_Windows__System__UserProfile__IGlobalizationPreferencesForUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWordBreaker__struct_IWordBreakerFeatures { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_IWordSink { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_2___1__0__0__struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClassImpl_struct_Microsoft__WRL__RuntimeClassFlags_6___0__0__0__struct_IClassFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IActivationFactory__struct_Microsoft__WRL__Implements_class_Microsoft__WRL__FtmBase__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics___struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics2__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics3__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_13___0__1__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_RuntimeClass_struct_Microsoft__WRL__Details__InterfaceListHelper_struct_IClassFactory__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil__class_Microsoft__WRL__Details__Nil___struct_Microsoft__WRL__RuntimeClassFlags_6___0__0__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_Selector_class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Microsoft__WRL__Details__ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberRounder___struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_Selector_class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Microsoft__WRL__Details__ImplementsHelper_struct_Microsoft__WRL__RuntimeClassFlags_1___0__struct_Microsoft__WRL__Details__ImplementsMarker_class_Windows__Globalization__NumberFormatting__NumberRounder___struct_IWeakReferenceSource__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_StaticStorage_class_Microsoft__WRL__Details__DefaultModule_1___0__int { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Details_WeakReferenceImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_ErrorPropagationPolicyTraits__1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ISelectableWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextPredictionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__ITextReverseConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IUnicodeCharactersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Data__Text__IWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__Collation__ICharacterGroupingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IApplicationLanguagesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICalendarIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IClockIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyAmountFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__ICurrencyIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__IGeographicRegionFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__INumeralSystemIdentifiersStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IDecimalFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslatorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPercentFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__Globalization__NumberFormatting__IPermilleFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_class_Microsoft__WRL__FtmBase__struct_Windows__System__UserProfile__IGlobalizationPreferencesStatics { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__Foundation__Collections__IIterable_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__Foundation__Collections__IIterable_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__Foundation__Collections__IIterator_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Implements_struct_Windows__Foundation__Collections__IIterator_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Module_1__class_Microsoft__WRL__Details__DefaultModule_1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Data__Text__SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Globalization__NumberFormatting__NumberFormatter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Globalization__NumberFormatting__NumberFormatter__struct_Windows__Globalization__ICloneable__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Globalization__NumberFormatting__NumberFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter__struct_Windows__Globalization__NumberFormatting__ICurrencyFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Windows__Globalization__NumberFormatting__IIncrementNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_class_Windows__Globalization__NumberFormatting__NumberRounder__struct_Windows__Globalization__NumberFormatting__ISignificantDigitsNumberRounder__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWeakReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWordBreaker__struct_IWordBreakerFeatures { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_IWordSink { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Microsoft__WRL__RuntimeClassFlags_2___struct_Windows__Internal__IComPoolTask { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__IAlternateWordForm__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ISelectableWordSegment__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ISelectableWordsSegmenter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ITextConversionGenerator__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ITextPhoneme__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ITextPredictionGenerator__struct_Windows__Data__Text__ITextPredictionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__ITextReverseConversionGenerator__struct_Windows__Data__Text__ITextReverseConversionGenerator2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__IWordSegment__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Data__Text__IWordsSegmenter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__IReference_double___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__IReference_int64_t___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Foundation__IReference_uint64_t___class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__Collation__ICharacterGrouping__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__Collation__ICharacterGroupings__struct_Windows__Foundation__Collections__IVectorView_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__IIterable_class_Windows__Globalization__Collation__CharacterGrouping_____class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter__struct_Windows__Globalization__DateTimeFormatting__IDateTimeFormatter2__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__ICalendar__struct_Windows__Globalization__ITimeZoneOnCalendar__struct_Windows__Globalization__IUnderlyingCalendarObject__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__ICurrencyAmount__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__IGeographicRegion__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__ILanguage__struct_Windows__Globalization__ILanguage2__struct_Windows__Globalization__ILanguage3__struct_Windows__Globalization__ILanguageExtensionSubtags__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__NumberFormatting__INumberFormatter__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__Globalization__NumberFormatting__INumeralSystemTranslator__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_RuntimeClass_struct_Windows__System__UserProfile__IGlobalizationPreferencesForUser__class_Microsoft__WRL__FtmBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Globalization__NumberFormatting__IncrementNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleActivationFactory_class_Windows__Globalization__NumberFormatting__SignificantDigitsNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleClassFactory_class_Windows__Data__Text__NeutralWordBreakerUnicodeDefault__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Globalization__NumberFormatting__IncrementNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_SimpleSealedActivationFactory_class_Windows__Globalization__NumberFormatting__SignificantDigitsNumberRounder__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_Details { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HString { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_HStringReference { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Microsoft_WRL_Wrappers_SRWLock { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Nullable_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Nullable_int64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Nullable_uint64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ReaderWriterLock_ScopedRead { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct ReaderWriterLock_ScopedWrite { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct RpcOptionsHelper { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SH_void____class_SH_HANDLE { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SP_unsigned_char__class_SP_HLOCAL_unsigned_char { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SP_unsigned_char__class_SP_MEM_unsigned_char { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SP_unsigned_long__class_SP_MEM_unsigned_long { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SP_unsigned_short____class_SP_MEM_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SP_unsigned_short__class_SP_MEM_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct SafeIntInternal_SafeIntExceptionHandler_class_SafeIntException { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct TextSuggestionTraceLogging { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct TextSuggestionTraceLoggingTelemetry { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct TextSuggestionTraceLoggingTelemetry_TextSuggestionCallContextActivity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct WARBIRD_DELAY_LOAD { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_AlternateWordForm { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_InstalledWordBreaker { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_IterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_LanguageResolutionResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_MtfSuggestionPropertyHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_MtfSuggestionPropertyHandlerCHS { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_MtfSuggestionPropertyHandlerDesktopCHS { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_MtfSuggestionPropertyHandlerJPN { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_MtfSuggestionPropertyHandlerMobileCHS { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_NeutralWordBreakerUnicodeDefault { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_ResolvedWordBreaker { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_ReverseIterableSelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_ReverseIterableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_ReverseSegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__SelectableWordSegmentReverseIterator__class_Windows__Data__Text__SelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer___class_Windows__Data__Text__SelectableWordSegment__struct_Windows__Data__Text__ISelectableWordSegment__class_Windows__Data__Text__SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SegmentIterator_class_Windows__Data__Text__IterableSegment_class_Windows__Data__Text__WordSegmentReverseIterator__class_Windows__Data__Text__WordSegment__class_Windows__Data__Text__WordsTokenizer___class_Windows__Data__Text__WordSegment__struct_Windows__Data__Text__IWordSegment__class_Windows__Data__Text__WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_SelectableWordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextPredictionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextPredictionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextReverseConversionGenerator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextReverseConversionGeneratorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextSource { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_TextSourceChunkInputIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_UnicodeCharacters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_UnicodeWordSegmenterInputIterator_unsigned_short_const { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_UnicodeWordSegmenter_unsigned_short_const { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordBreakStartPositionFinder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordBreakerCache { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordBreakerCache_CreatedWordBreaker { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordBreakerLanguageResolver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordBreakerLanguageResolver_HKeyGuard { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordSegmentIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordSegmentReverseIterator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordsSegmenter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordsSegmenterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Data_Text_WordsTokenizer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Data__Text__SelectableWordSegment____struct_Windows__Data__Text__ISelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Data__Text__WordSegment____struct_Windows__Data__Text__IWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterable_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Globalization__Collation__CharacterGrouping____struct_Windows__Globalization__Collation__ICharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_class_Windows__Data__Text__SelectableWordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_class_Windows__Data__Text__WordSegment { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Data__Text__SelectableWordSegment____struct_Windows__Data__Text__ISelectableWordSegment_____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IIterator_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Data__Text__WordSegment____struct_Windows__Data__Text__IWordSegment_____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVectorView_class_Windows__Globalization__Collation__CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_IVectorView_impl_struct_Windows__Foundation__Internal__AggregateType_class_Windows__Globalization__Collation__CharacterGrouping____struct_Windows__Globalization__Collation__ICharacterGrouping_____1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_SimpleVectorView_class_Windows__Globalization__Collation__CharacterGrouping____struct_Windows__Foundation__Collections__IVector_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__Internal__DefaultLifetimeTraits_class_Windows__Globalization__Collation__CharacterGrouping_____struct_Windows__Foundation__Collections__Internal__NoVersionTag__0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_Collections_Internal_detail { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_impl_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IAsyncOperation_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_impl_double { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_impl_int64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_impl_uint64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_int64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Foundation_IReference_uint64_t { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_ApplicationLanguages { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_ApplicationLanguagesBrokered { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_ApplicationLanguagesImpl { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_CalendarFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_CalendarIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendar_HoursInPeriodCounter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_AdjustableHijriCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendarHelpers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendricalCalculations { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendricalCalculations_Longitude { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendricalCalculations_MomentInApparentTime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendricalCalculations_MomentInDynamicalTime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_CalendricalCalculations_SolarLongitude { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_EastAsianLunisolarCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_GregorianCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_GregorianCalendarExpandedBounds { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_HebrewCivilCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_HijriCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_JapaneseCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_JapaneseEraInfo { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_JulianCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_KoreanDangiCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_PersianCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_TaiwanCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_ThaiSolarCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_UmAlQuraCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Calendars_YearMonthCalendar { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_ClockIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Collation_CharacterGrouping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Collation_CharacterGroupings { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Collation_CharacterGroupingsFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Collation_GroupingLetters { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Currency { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_CurrencyAmountFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_CurrencyAmountServer { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_CurrencyIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeDecimalFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeFormatting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeFormatting_DateTimeFormatPattern { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeFormatting_DateTimeFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeFormatting_DateTimeFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_DateTimeFormatting_PatternResolver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_FormatContext { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_GeographicRegion { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_GeographicRegionFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_Language { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_LanguageFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_LanguageTraceLoggingProvider { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_LanguageTraceLoggingProvider_GetMtfSuggestionListWithRetryActivity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_LanguageTraceLoggingProvider_TrySetInputMethodLanguageTagActivity { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_LocaleIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_CurrencyFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_CurrencyFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_DecimalFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_DecimalFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_DoubleConverter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_HebrewNumeralFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_IncrementNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NativeDecimalDigits { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NativeDecimalDigits_DigitMatcher { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NumberFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NumeralSystemDecimalFormatterInternal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NumeralSystemTranslator { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_NumeralSystemTranslatorFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_PercentFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_PercentFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_PermilleFormatter { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_PermilleFormatterFactory { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumberFormatting_SignificantDigitsNumberRounder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_NumeralSystemIdentifiers { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_AbsoluteDateResolver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_ApplicableRules { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_DstTransitionRule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_DstTransitionRules { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_DstTransitionRules_TransitionFinder { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_FirstOnOrAfterDateResolver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_LastDateResolver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_LegacyWindowsTimeZone { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZone { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneCache { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneDataChangeObserver { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneIdMapping { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneInformation { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneParser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_TimeZoneRule { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_TimeZone_ZonedTime { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Globalization_UnicodeExtensions { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CHSTRINGResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_AsyncCallbackBase_class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_CHSTRINGResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_COperationLambdaVar_0__class__lambda_1feea9c82387731dd9a5bbf470c5cf36_____class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_COperationLambdaVar_0__class__lambda_4df51b9394f616c3f78c1b5692913eb0___class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_COperationLambdaVar_0__class__lambda_76078e3bf33fbe180bf3a23ea3d43c38_____class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_COperationLambdaVar_0__class__lambda_c22b6d2626d3c698d0debbb5837c3742___class_Windows__Internal__CHSTRINGResult { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_COperationLambdaVar_0__class__lambda_d7a75c1ee9f49c18f73e44c142c4183b___class_Windows__Internal__CMarshaledInterfaceResult_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPoolHandler { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_ComTaskPool_CTaskWrapper_class__lambda_c2fd7731c5ae0d37e65ea73be67c0f1b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_class_Windows__Data__Text__TextPhoneme { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Foundation__IAsyncOperationCompletedHandler_struct_Windows__Foundation__Collections__IVectorView_struct_HSTRING { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_GitPtrSupportsAgile_struct_Windows__Internal__INilDelegate { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_HResultException { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_MoveOnCopy_class_Microsoft__WRL__Wrappers__HString { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_Internal_NativeString_class_Windows__Internal__CoTaskMemPolicy_unsigned_short { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_System_UserProfile_GlobalizationPreferences { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_System_UserProfile_GlobalizationPreferencesBase { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_System_UserProfile_GlobalizationPreferencesBrokered { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct Windows_System_UserProfile_GlobalizationPreferencesForUser { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_0374aa0a5d1201b2358c6bce99369c58 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_152aa9d2a3a0648fa2fa7fcef514b376 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_156f8c05752017390d6185e99ef4c093 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1ad7ecfab602a777ecf020873216a663 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_1feea9c82387731dd9a5bbf470c5cf36 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_397da8e33f6d3357dfabd17f713073a3 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4602b8c950121bb9dff7612e49b126a5 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_4df51b9394f616c3f78c1b5692913eb0 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5035b992506f4af81a770c5842624510 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5b580355cd67b5fbf1b62ce86ee9496b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_5f1dd388c03885d19ee806198d2ac5ef { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_76078e3bf33fbe180bf3a23ea3d43c38 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_9a2017f333e4665a2f587aa8c7c709b8 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_aa194dc0bf891154933407eb98fb868a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_b70241e9b5ebaad244db3e52d52cab17 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_c22b6d2626d3c698d0debbb5837c3742 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_c2b4ffcc15ddd0fa54b4474c7e4ef352 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d51448ba32f8ef42e59400edd4566183 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_d7a75c1ee9f49c18f73e44c142c4183b { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_da1ba8329c572007d6de5db0500f4113 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_ee76fde07c420b76ea147b0c55ef7ce1 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fe64331afaea4d10d23553556e2725f9 { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct lambda_fee8cea507d2413a58be13acfb66740a { _opaque: [u8; 0] }
+
+#[repr(C)]
+pub struct type_info { _opaque: [u8; 0] }
+
